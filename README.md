@@ -26,7 +26,7 @@ This project simulates a **Lexi-style legal assistant**, where users can:
 
 ```bash
 # Clone the repository
-git clone https://github.com/diwansh12/lexisg-frontend-intern-test.git
+git clone https://github.com/diwansh12/Lexisg-Frontend.git
 
 # Navigate into the folder
 cd lexisg-frontend-intern-test
