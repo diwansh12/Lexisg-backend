@@ -1,12 +1,38 @@
-# React + Vite
+# 🧠 Lexi Legal Assistant – Frontend Intern Test
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project simulates a **Lexi-style legal assistant**, where users can:
 
-Currently, two official plugins are available:
+- Ask a legal question  
+- See AI-generated answers with legal citations  
+- Click citations to **view the PDF source in a modal**
+- Download the judgment PDF
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> ✅ Built with **React** + **Tailwind CSS**  
+> ✅ Fully self-contained, no real backend  
+> ✅ Simulates a legal assistant UI like ChatGPT with modal PDF viewer
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Demo
+
+![Screenshot](./screenshots/app-preview.png)
+
+> 💡 Citation opens PDF in a modal with a **Download** option  
+> PDF is embedded using an `<iframe>` and supports scroll, zoom, download.
+
+---
+
+## 🧪 How to Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/lexisg-frontend-intern-test.git
+
+# Navigate into the folder
+cd lexisg-frontend-intern-test
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
